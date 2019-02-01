@@ -1,6 +1,24 @@
-import React from 'react';
+import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import * as authActionCreators from './actions/authActionCreators'
+import {bindActionCreators} from 'redux'
 
 
-const teaser = () => <h1>Hey</h1>;
+import App from './views/index'
 
-export default teaser;
+// const App = () => <h1>Hey </h1>;
+
+const mapStateToProps = state => ({
+    ...state
+   })
+  
+   const mapDispatchToProps = dispatch => (
+    bindActionCreators(authActionCreators, dispatch)
+   )
+  
+
+  
+export default connect(mapStateToProps, mapDispatchToProps)(App);
+  
+
+// export default teaser;
