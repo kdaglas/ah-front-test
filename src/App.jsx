@@ -2,11 +2,9 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import * as authActionCreators from './actions/authActionCreators'
 import {bindActionCreators} from 'redux'
-
-
 import App from './views/index'
+import '../src/assets/scss/argon.scss';
 
-// const App = () => <h1>Hey </h1>;
 
 const mapStateToProps = state => ({
     ...state
@@ -20,5 +18,3 @@ const mapStateToProps = state => ({
   
 export default connect(mapStateToProps, mapDispatchToProps)(App);
   
-
-// export default teaser;
