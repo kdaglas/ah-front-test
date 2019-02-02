@@ -29,6 +29,10 @@ module.exports={
             name: '../css/fonts/[name]-[hash:8].[ext]'
             }
           }
+      },
+        {
+          test:/\.scss$/,
+          loaders:["style-loader","css-loader","sass-loader"]
       }
     ]
   },
