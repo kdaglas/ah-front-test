@@ -1,10 +1,12 @@
+const webpack = require('webpack');
 const path =require("path");
-const HTMLplugin=require("html-webpack-plugin");
 
+const HTMLplugin=require("html-webpack-plugin");
+const parentDir = path.join(__dirname, "./")
 module.exports={
-  entry:["babel-polyfill","./src/index.js"],
+  entry:["./src/index.js"],
   output:{
-    path:path.resolve(__dirname,"dist"),
+    path:path.join(parentDir,"dist"),
     filename:"bundle.js"
   },
   resolve:{
@@ -39,9 +41,12 @@ module.exports={
   plugins:[
     new HTMLplugin(
       {
-        template:"./src/index.html",
-        filename:"./index.html"
+        template:"./src/index.html"
       }
     )
-  ]
+  ],
+  devServer:{
+    contentBase: parentDir,
+    historyApiFallback:true
+  }
 }
