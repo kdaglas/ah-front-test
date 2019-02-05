@@ -8,7 +8,9 @@
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage --colors",
     "start": "webpack-dev-server --open --mode development",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "coverage": "react-scripts test --env=jsdom --coverage",
+    "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls"
   },
   "keywords": [],
   "author": "",
@@ -37,6 +39,7 @@
   },
   "dependencies": {
     "@babel/cli": "^7.2.3",
+    "coveralls": "^3.0.2",
     "eslint": "^5.12.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
