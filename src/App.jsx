@@ -1,18 +1,17 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import * as authActionCreators from './actions/authActionCreators'
+import * as authActionCreators from './actions/loginAction'
 import {bindActionCreators} from 'redux'
 import App from './views/index'
-import '../src/assets/scss/argon.scss';
-
+import '../dist/assets/scss/argon.scss';
 
 const mapStateToProps = state => ({
     ...state
    })
   
-   const mapDispatchToProps = dispatch => (
-    bindActionCreators(authActionCreators, dispatch)
-   )
+   const mapDispatchToProps = dispatch => {
+    return bindActionCreators(authActionCreators, dispatch)
+   }
   
 
   

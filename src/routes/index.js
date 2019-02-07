@@ -1,9 +1,8 @@
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import React, {Component} from 'react';
-import Login from '../components/Login';
+import Login from '../components/Login/index';
 import Register from '../components/Register';
 import Home from '../components/Home';
-
 
 class Routes extends Component{
     render(){
@@ -19,4 +18,6 @@ class Routes extends Component{
     }
 }
 
+
+  
 export default Routes;
