@@ -11,7 +11,8 @@
     "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls",
     "start": "webpack-dev-server --open --mode development --hot",
     "build": "webpack --mode production",
-    "heroku-postbuild": "webpack -p"
+		"heroku-prebuild": "npm install",
+    "heroku-postbuild": "npm run build"
   },
   "keywords": [],
   "author": "",
