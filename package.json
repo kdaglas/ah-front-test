@@ -12,10 +12,10 @@
     "build": "NODE_ENV=production webpack",
     "start:dev": "NODE_ENV=development webpack-dev-server --open",
 
-    "test:dev": "yarn test --watch",
+    "test:dev": "npm test --watch",
 
-		"heroku-prebuild": "yarn install",
-    "heroku-postbuild": "yarn build"
+		"heroku-prebuild": "npm install",
+    "heroku-postbuild": "npm run build"
   },
   "keywords": [],
   "author": "",
