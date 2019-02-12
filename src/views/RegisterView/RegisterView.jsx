@@ -54,10 +54,10 @@ export class RegisterView extends Component {
 
     }
     handleGoogleSuccess=(resp)=>{
-        console.log(resp)
+        console.log(resp.tokenId)
     }
     handleGoogleFail=(resp)=>{
-        console.log(resp)
+        alert('its possible you are logged in with two accounts please signout of one or use ')
     }
     render(){
          
