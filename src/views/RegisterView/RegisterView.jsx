@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import RegsiterAction from '../../actions/registerUserActionCreator';
 import {connect} from 'react-redux';
 import Register from '../../components/Register/Register';
+import socialSignUpAction from '../../actions/SocialSignupAction';
+
 import './RegisterView.css'
 import toastr from 'toastr'
 
@@ -45,7 +47,8 @@ export class RegisterView extends Component {
     }
     
     responseFacebook=(resp)=>{
-        console.log(resp.accessToken)
+        socialSignUpAction(resp.accessToken)
+
     }
     render(){
          
@@ -64,8 +67,9 @@ export class RegisterView extends Component {
 
 export const mapStateToProps = (state) => {
     return {
-        registerState: state.registerUserReducer
+        registerState: state.registerUserReducer,
+        socailSignUpState:state.socialSignupReducer
     }
 }
 
-export default connect(mapStateToProps,{RegsiterAction})(RegisterView)
+export default connect(mapStateToProps,{RegsiterAction,socialSignUpAction})(RegisterView)
