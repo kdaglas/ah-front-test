@@ -1,5 +1,7 @@
 import React from 'react';
 import FacebookLogin from 'react-facebook-login'
+import GoogleLogin from 'react-google-login';
+
 const Register=(props)=>{
     return(  
             <div className="container">     
@@ -21,14 +23,15 @@ const Register=(props)=>{
                                     cssClass="btn btn-primary mr-2"
                                     textButton="Facebook"
                                   />
-                                  <a href="#" className="btn btn-neutral btn-icon">
-                                    <span className="btn-inner--icon">
-                                    <i className="fab fa-2x fa-google"></i>
-                                </span>
-                                <span className="btn-inner--text">Google</span>
-                              </a>
-                              <a href="#" className="btn btn-neutral btn-icon mr-4 mt-2">
-                                <span className="btn-inner--icon">
+                                  <GoogleLogin
+                                clientId="63620106406-pbihrppapngvgrmtrlbiukr40kahgp78.apps.googleusercontent.com"
+                                buttonText="Google"
+                                onSuccess={props.googleResponseSuccess}
+                                onFailure={props.googleResponseFailure}
+                                cssClass="btn btn-primary"
+                                   />
+                                <a href="#" className="btn btn-neutral btn-icon mr-4 mt-2">
+                                        <span className="btn-inner--icon">
                                 <i className="fab fa-2x fa-twitter"></i>
                                 </span>
                                 <span className="btn-inner--text">Twitter</span>

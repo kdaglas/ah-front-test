@@ -53,6 +53,12 @@ export class RegisterView extends Component {
 
 
     }
+    handleGoogleSuccess=(resp)=>{
+        console.log(resp)
+    }
+    handleGoogleFail=(resp)=>{
+        console.log(resp)
+    }
     render(){
          
     return (
@@ -61,7 +67,8 @@ export class RegisterView extends Component {
         <Register Clicked={this.Clicked} 
         responseFacebook={this.responseFacebook}
         successOrError={this.state.usernameValid? "has-danger":"has-success"}
-         HandleChange={this.HandleChange}/>
+         HandleChange={this.HandleChange}
+         googleResponseSuccess={this.handleGoogleSuccess} googleResponseFailure={this.handleGoogleFail}/>
 
         </div>
         )
