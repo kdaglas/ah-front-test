@@ -48,6 +48,8 @@ export class RegisterView extends Component {
     
     responseFacebook=(resp)=>{
         socialSignUpAction(resp.accessToken)
+        console.log(resp)
+
 
     }
     render(){
