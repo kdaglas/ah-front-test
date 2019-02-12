@@ -41,12 +41,13 @@ export class RegisterView extends Component {
     }
     Clicked=(e)=>{
         e.preventDefault()
-        const {RegsiterAction} = this.props;
+        const { RegsiterAction } = this.props;
         RegsiterAction(this.state)
        
     }
     
     responseFacebook=(resp)=>{
+        const { socialSignUpAction } = this.props
         socialSignUpAction(resp.accessToken)
         console.log(resp)
 
