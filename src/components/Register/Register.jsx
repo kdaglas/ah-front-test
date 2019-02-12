@@ -1,5 +1,5 @@
 import React from 'react';
-
+import FacebookLogin from 'react-facebook-login'
 const Register=(props)=>{
     return(  
             <div className="container">     
@@ -14,15 +14,16 @@ const Register=(props)=>{
                               <small>Sign up with</small>
                             </div>
                             <div className="text-center">
-                              <a href="#" className="btn btn-neutral btn-icon mr-4">
-                                <span className="btn-inner--icon">
-                                <i className="fab fa-2x fa-facebook-f"></i>
-                                </span>
-                                <span className="btn-inner--text">Facebook</span>
-                              </a>
-                              <a href="#" className="btn btn-neutral btn-icon">
-                                <span className="btn-inner--icon">
-                                <i className="fab fa-2x fa-google"></i>
+                                    <FacebookLogin
+                                    appId="367351517400934" //APP ID NOT CREATED YET
+                                    fields="name,email,picture"
+                                    callback={props.responseFacebook}
+                                    cssClass="btn btn-primary mr-2"
+                                    textButton="Facebook"
+                                  />
+                                  <a href="#" className="btn btn-neutral btn-icon">
+                                    <span className="btn-inner--icon">
+                                    <i className="fab fa-2x fa-google"></i>
                                 </span>
                                 <span className="btn-inner--text">Google</span>
                               </a>
@@ -74,7 +75,7 @@ const Register=(props)=>{
                                 <div className="col-12">
                                   <div className="custom-control custom-control-alternative custom-checkbox">
                                     <input className="custom-control-input" id="customCheckRegister" type="checkbox"/>
-                                    <label className="custom-control-label" for="customCheckRegister">
+                                    <label className="custom-control-label" htmlFor="customCheckRegister">
                                       <span>I agree with the
                                         <a href="#">Privacy Policy</a>
                                       </span>

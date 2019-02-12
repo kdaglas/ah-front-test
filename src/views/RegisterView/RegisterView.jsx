@@ -4,7 +4,7 @@ import {connect} from 'react-redux';
 import Register from '../../components/Register/Register';
 import './RegisterView.css'
 import toastr from 'toastr'
-import FacebookLogin from 'react-facebook-login'
+
 
 
 export class RegisterView extends Component {
@@ -30,9 +30,6 @@ export class RegisterView extends Component {
         }
     }
     
-    // const responseGoogle = response => {
-    //     console.log(response)
-    //   }
 
     HandleChange=(e)=>{
         this.setState({
@@ -47,21 +44,19 @@ export class RegisterView extends Component {
        
     }
     
-   
+    responseFacebook=(resp)=>{
+        console.log(resp)
+    }
     render(){
-        const responseFacebook=(resp)=>{
-            console.log(resp)
-        }
+         
     return (
        
         <div>
-        <Register Clicked={this.Clicked} successOrError={this.state.usernameValid? "has-success":"has-danger"} HandleChange={this.HandleChange}/>
+        <Register Clicked={this.Clicked} 
+        responseFacebook={this.responseFacebook}
+        successOrError={this.state.usernameValid? "has-danger":"has-success"}
+         HandleChange={this.HandleChange}/>
 
-        <FacebookLogin
-        appId="367351517400934" //APP ID NOT CREATED YET
-        fields="name,email,picture"
-        callback={responseFacebook}
-      />
         </div>
         )
     }
