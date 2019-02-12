@@ -51,23 +51,15 @@ ShallowWrapper {
                   <div
                     className="text-center"
                   >
-                    <a
-                      className="btn btn-neutral btn-icon mr-4"
-                      href="#"
-                    >
-                      <span
-                        className="btn-inner--icon"
-                      >
-                        <i
-                          className="fab fa-2x fa-facebook-f"
-                        />
-                      </span>
-                      <span
-                        className="btn-inner--text"
-                      >
-                        Facebook
-                      </span>
-                    </a>
+                    <t
+                      appId="367351517400934"
+                      cssClass="btn btn-primary mr-2"
+                      fields="name,email,picture"
+                      size="metro"
+                      tag="button"
+                      textButton="Facebook"
+                      typeButton="button"
+                    />
                     <a
                       className="btn btn-neutral btn-icon"
                       href="#"
@@ -223,7 +215,7 @@ ShallowWrapper {
                           />
                           <label
                             className="custom-control-label"
-                            for="customCheckRegister"
+                            htmlFor="customCheckRegister"
                           >
                             <span>
                               I agree with the
@@ -293,23 +285,15 @@ ShallowWrapper {
                     <div
                       className="text-center"
                     >
-                      <a
-                        className="btn btn-neutral btn-icon mr-4"
-                        href="#"
-                      >
-                        <span
-                          className="btn-inner--icon"
-                        >
-                          <i
-                            className="fab fa-2x fa-facebook-f"
-                          />
-                        </span>
-                        <span
-                          className="btn-inner--text"
-                        >
-                          Facebook
-                        </span>
-                      </a>
+                      <t
+                        appId="367351517400934"
+                        cssClass="btn btn-primary mr-2"
+                        fields="name,email,picture"
+                        size="metro"
+                        tag="button"
+                        textButton="Facebook"
+                        typeButton="button"
+                      />
                       <a
                         className="btn btn-neutral btn-icon"
                         href="#"
@@ -465,7 +449,7 @@ ShallowWrapper {
                             />
                             <label
                               className="custom-control-label"
-                              for="customCheckRegister"
+                              htmlFor="customCheckRegister"
                             >
                               <span>
                                 I agree with the
@@ -539,23 +523,15 @@ ShallowWrapper {
                     <div
                       className="text-center"
                     >
-                      <a
-                        className="btn btn-neutral btn-icon mr-4"
-                        href="#"
-                      >
-                        <span
-                          className="btn-inner--icon"
-                        >
-                          <i
-                            className="fab fa-2x fa-facebook-f"
-                          />
-                        </span>
-                        <span
-                          className="btn-inner--text"
-                        >
-                          Facebook
-                        </span>
-                      </a>
+                      <t
+                        appId="367351517400934"
+                        cssClass="btn btn-primary mr-2"
+                        fields="name,email,picture"
+                        size="metro"
+                        tag="button"
+                        textButton="Facebook"
+                        typeButton="button"
+                      />
                       <a
                         className="btn btn-neutral btn-icon"
                         href="#"
@@ -711,7 +687,7 @@ ShallowWrapper {
                             />
                             <label
                               className="custom-control-label"
-                              for="customCheckRegister"
+                              htmlFor="customCheckRegister"
                             >
                               <span>
                                 I agree with the
@@ -767,23 +743,15 @@ ShallowWrapper {
                     <div
                       className="text-center"
                     >
-                      <a
-                        className="btn btn-neutral btn-icon mr-4"
-                        href="#"
-                      >
-                        <span
-                          className="btn-inner--icon"
-                        >
-                          <i
-                            className="fab fa-2x fa-facebook-f"
-                          />
-                        </span>
-                        <span
-                          className="btn-inner--text"
-                        >
-                          Facebook
-                        </span>
-                      </a>
+                      <t
+                        appId="367351517400934"
+                        cssClass="btn btn-primary mr-2"
+                        fields="name,email,picture"
+                        size="metro"
+                        tag="button"
+                        textButton="Facebook"
+                        typeButton="button"
+                      />
                       <a
                         className="btn btn-neutral btn-icon"
                         href="#"
@@ -939,7 +907,7 @@ ShallowWrapper {
                             />
                             <label
                               className="custom-control-label"
-                              for="customCheckRegister"
+                              htmlFor="customCheckRegister"
                             >
                               <span>
                                 I agree with the
@@ -991,23 +959,15 @@ ShallowWrapper {
                     <div
                       className="text-center"
                     >
-                      <a
-                        className="btn btn-neutral btn-icon mr-4"
-                        href="#"
-                      >
-                        <span
-                          className="btn-inner--icon"
-                        >
-                          <i
-                            className="fab fa-2x fa-facebook-f"
-                          />
-                        </span>
-                        <span
-                          className="btn-inner--text"
-                        >
-                          Facebook
-                        </span>
-                      </a>
+                      <t
+                        appId="367351517400934"
+                        cssClass="btn btn-primary mr-2"
+                        fields="name,email,picture"
+                        size="metro"
+                        tag="button"
+                        textButton="Facebook"
+                        typeButton="button"
+                      />
                       <a
                         className="btn btn-neutral btn-icon"
                         href="#"
@@ -1163,7 +1123,7 @@ ShallowWrapper {
                             />
                             <label
                               className="custom-control-label"
-                              for="customCheckRegister"
+                              htmlFor="customCheckRegister"
                             >
                               <span>
                                 I agree with the
@@ -1212,23 +1172,15 @@ ShallowWrapper {
                       <div
                         className="text-center"
                       >
-                        <a
-                          className="btn btn-neutral btn-icon mr-4"
-                          href="#"
-                        >
-                          <span
-                            className="btn-inner--icon"
-                          >
-                            <i
-                              className="fab fa-2x fa-facebook-f"
-                            />
-                          </span>
-                          <span
-                            className="btn-inner--text"
-                          >
-                            Facebook
-                          </span>
-                        </a>
+                        <t
+                          appId="367351517400934"
+                          cssClass="btn btn-primary mr-2"
+                          fields="name,email,picture"
+                          size="metro"
+                          tag="button"
+                          textButton="Facebook"
+                          typeButton="button"
+                        />
                         <a
                           className="btn btn-neutral btn-icon"
                           href="#"
@@ -1384,7 +1336,7 @@ ShallowWrapper {
                               />
                               <label
                                 className="custom-control-label"
-                                for="customCheckRegister"
+                                htmlFor="customCheckRegister"
                               >
                                 <span>
                                   I agree with the
@@ -1431,23 +1383,15 @@ ShallowWrapper {
                         <div
                           className="text-center"
                         >
-                          <a
-                            className="btn btn-neutral btn-icon mr-4"
-                            href="#"
-                          >
-                            <span
-                              className="btn-inner--icon"
-                            >
-                              <i
-                                className="fab fa-2x fa-facebook-f"
-                              />
-                            </span>
-                            <span
-                              className="btn-inner--text"
-                            >
-                              Facebook
-                            </span>
-                          </a>
+                          <t
+                            appId="367351517400934"
+                            cssClass="btn btn-primary mr-2"
+                            fields="name,email,picture"
+                            size="metro"
+                            tag="button"
+                            textButton="Facebook"
+                            typeButton="button"
+                          />
                           <a
                             className="btn btn-neutral btn-icon"
                             href="#"
@@ -1518,23 +1462,15 @@ ShallowWrapper {
                         "nodeType": "host",
                         "props": Object {
                           "children": Array [
-                            <a
-                              className="btn btn-neutral btn-icon mr-4"
-                              href="#"
-                            >
-                              <span
-                                className="btn-inner--icon"
-                              >
-                                <i
-                                  className="fab fa-2x fa-facebook-f"
-                                />
-                              </span>
-                              <span
-                                className="btn-inner--text"
-                              >
-                                Facebook
-                              </span>
-                            </a>,
+                            <t
+                              appId="367351517400934"
+                              cssClass="btn btn-primary mr-2"
+                              fields="name,email,picture"
+                              size="metro"
+                              tag="button"
+                              textButton="Facebook"
+                              typeButton="button"
+                            />,
                             <a
                               className="btn btn-neutral btn-icon"
                               href="#"
@@ -1577,65 +1513,20 @@ ShallowWrapper {
                           Object {
                             "instance": null,
                             "key": undefined,
-                            "nodeType": "host",
+                            "nodeType": "class",
                             "props": Object {
-                              "children": Array [
-                                <span
-                                  className="btn-inner--icon"
-                                >
-                                  <i
-                                    className="fab fa-2x fa-facebook-f"
-                                  />
-                                </span>,
-                                <span
-                                  className="btn-inner--text"
-                                >
-                                  Facebook
-                                </span>,
-                              ],
-                              "className": "btn btn-neutral btn-icon mr-4",
-                              "href": "#",
+                              "appId": "367351517400934",
+                              "callback": undefined,
+                              "cssClass": "btn btn-primary mr-2",
+                              "fields": "name,email,picture",
+                              "size": "metro",
+                              "tag": "button",
+                              "textButton": "Facebook",
+                              "typeButton": "button",
                             },
                             "ref": null,
-                            "rendered": Array [
-                              Object {
-                                "instance": null,
-                                "key": undefined,
-                                "nodeType": "host",
-                                "props": Object {
-                                  "children": <i
-                                    className="fab fa-2x fa-facebook-f"
-                                  />,
-                                  "className": "btn-inner--icon",
-                                },
-                                "ref": null,
-                                "rendered": Object {
-                                  "instance": null,
-                                  "key": undefined,
-                                  "nodeType": "host",
-                                  "props": Object {
-                                    "className": "fab fa-2x fa-facebook-f",
-                                  },
-                                  "ref": null,
-                                  "rendered": null,
-                                  "type": "i",
-                                },
-                                "type": "span",
-                              },
-                              Object {
-                                "instance": null,
-                                "key": undefined,
-                                "nodeType": "host",
-                                "props": Object {
-                                  "children": "Facebook",
-                                  "className": "btn-inner--text",
-                                },
-                                "ref": null,
-                                "rendered": "Facebook",
-                                "type": "span",
-                              },
-                            ],
-                            "type": "a",
+                            "rendered": null,
+                            "type": [Function],
                           },
                           Object {
                             "instance": null,
@@ -1891,7 +1782,7 @@ ShallowWrapper {
                                 />
                                 <label
                                   className="custom-control-label"
-                                  for="customCheckRegister"
+                                  htmlFor="customCheckRegister"
                                 >
                                   <span>
                                     I agree with the
@@ -2057,7 +1948,7 @@ ShallowWrapper {
                                   />
                                   <label
                                     className="custom-control-label"
-                                    for="customCheckRegister"
+                                    htmlFor="customCheckRegister"
                                   >
                                     <span>
                                       I agree with the
@@ -2518,7 +2409,7 @@ ShallowWrapper {
                                   />
                                   <label
                                     className="custom-control-label"
-                                    for="customCheckRegister"
+                                    htmlFor="customCheckRegister"
                                   >
                                     <span>
                                       I agree with the
@@ -2549,7 +2440,7 @@ ShallowWrapper {
                                   />
                                   <label
                                     className="custom-control-label"
-                                    for="customCheckRegister"
+                                    htmlFor="customCheckRegister"
                                   >
                                     <span>
                                       I agree with the
@@ -2577,7 +2468,7 @@ ShallowWrapper {
                                     />,
                                     <label
                                       className="custom-control-label"
-                                      for="customCheckRegister"
+                                      htmlFor="customCheckRegister"
                                     >
                                       <span>
                                         I agree with the
@@ -2620,7 +2511,7 @@ ShallowWrapper {
                                         </a>
                                       </span>,
                                       "className": "custom-control-label",
-                                      "for": "customCheckRegister",
+                                      "htmlFor": "customCheckRegister",
                                     },
                                     "ref": null,
                                     "rendered": Object {
@@ -2753,23 +2644,15 @@ ShallowWrapper {
                     <div
                       className="text-center"
                     >
-                      <a
-                        className="btn btn-neutral btn-icon mr-4"
-                        href="#"
-                      >
-                        <span
-                          className="btn-inner--icon"
-                        >
-                          <i
-                            className="fab fa-2x fa-facebook-f"
-                          />
-                        </span>
-                        <span
-                          className="btn-inner--text"
-                        >
-                          Facebook
-                        </span>
-                      </a>
+                      <t
+                        appId="367351517400934"
+                        cssClass="btn btn-primary mr-2"
+                        fields="name,email,picture"
+                        size="metro"
+                        tag="button"
+                        textButton="Facebook"
+                        typeButton="button"
+                      />
                       <a
                         className="btn btn-neutral btn-icon"
                         href="#"
@@ -2925,7 +2808,7 @@ ShallowWrapper {
                             />
                             <label
                               className="custom-control-label"
-                              for="customCheckRegister"
+                              htmlFor="customCheckRegister"
                             >
                               <span>
                                 I agree with the
@@ -2995,23 +2878,15 @@ ShallowWrapper {
                       <div
                         className="text-center"
                       >
-                        <a
-                          className="btn btn-neutral btn-icon mr-4"
-                          href="#"
-                        >
-                          <span
-                            className="btn-inner--icon"
-                          >
-                            <i
-                              className="fab fa-2x fa-facebook-f"
-                            />
-                          </span>
-                          <span
-                            className="btn-inner--text"
-                          >
-                            Facebook
-                          </span>
-                        </a>
+                        <t
+                          appId="367351517400934"
+                          cssClass="btn btn-primary mr-2"
+                          fields="name,email,picture"
+                          size="metro"
+                          tag="button"
+                          textButton="Facebook"
+                          typeButton="button"
+                        />
                         <a
                           className="btn btn-neutral btn-icon"
                           href="#"
@@ -3167,7 +3042,7 @@ ShallowWrapper {
                               />
                               <label
                                 className="custom-control-label"
-                                for="customCheckRegister"
+                                htmlFor="customCheckRegister"
                               >
                                 <span>
                                   I agree with the
@@ -3241,23 +3116,15 @@ ShallowWrapper {
                       <div
                         className="text-center"
                       >
-                        <a
-                          className="btn btn-neutral btn-icon mr-4"
-                          href="#"
-                        >
-                          <span
-                            className="btn-inner--icon"
-                          >
-                            <i
-                              className="fab fa-2x fa-facebook-f"
-                            />
-                          </span>
-                          <span
-                            className="btn-inner--text"
-                          >
-                            Facebook
-                          </span>
-                        </a>
+                        <t
+                          appId="367351517400934"
+                          cssClass="btn btn-primary mr-2"
+                          fields="name,email,picture"
+                          size="metro"
+                          tag="button"
+                          textButton="Facebook"
+                          typeButton="button"
+                        />
                         <a
                           className="btn btn-neutral btn-icon"
                           href="#"
@@ -3413,7 +3280,7 @@ ShallowWrapper {
                               />
                               <label
                                 className="custom-control-label"
-                                for="customCheckRegister"
+                                htmlFor="customCheckRegister"
                               >
                                 <span>
                                   I agree with the
@@ -3469,23 +3336,15 @@ ShallowWrapper {
                       <div
                         className="text-center"
                       >
-                        <a
-                          className="btn btn-neutral btn-icon mr-4"
-                          href="#"
-                        >
-                          <span
-                            className="btn-inner--icon"
-                          >
-                            <i
-                              className="fab fa-2x fa-facebook-f"
-                            />
-                          </span>
-                          <span
-                            className="btn-inner--text"
-                          >
-                            Facebook
-                          </span>
-                        </a>
+                        <t
+                          appId="367351517400934"
+                          cssClass="btn btn-primary mr-2"
+                          fields="name,email,picture"
+                          size="metro"
+                          tag="button"
+                          textButton="Facebook"
+                          typeButton="button"
+                        />
                         <a
                           className="btn btn-neutral btn-icon"
                           href="#"
@@ -3641,7 +3500,7 @@ ShallowWrapper {
                               />
                               <label
                                 className="custom-control-label"
-                                for="customCheckRegister"
+                                htmlFor="customCheckRegister"
                               >
                                 <span>
                                   I agree with the
@@ -3693,23 +3552,15 @@ ShallowWrapper {
                       <div
                         className="text-center"
                       >
-                        <a
-                          className="btn btn-neutral btn-icon mr-4"
-                          href="#"
-                        >
-                          <span
-                            className="btn-inner--icon"
-                          >
-                            <i
-                              className="fab fa-2x fa-facebook-f"
-                            />
-                          </span>
-                          <span
-                            className="btn-inner--text"
-                          >
-                            Facebook
-                          </span>
-                        </a>
+                        <t
+                          appId="367351517400934"
+                          cssClass="btn btn-primary mr-2"
+                          fields="name,email,picture"
+                          size="metro"
+                          tag="button"
+                          textButton="Facebook"
+                          typeButton="button"
+                        />
                         <a
                           className="btn btn-neutral btn-icon"
                           href="#"
@@ -3865,7 +3716,7 @@ ShallowWrapper {
                               />
                               <label
                                 className="custom-control-label"
-                                for="customCheckRegister"
+                                htmlFor="customCheckRegister"
                               >
                                 <span>
                                   I agree with the
@@ -3914,23 +3765,15 @@ ShallowWrapper {
                         <div
                           className="text-center"
                         >
-                          <a
-                            className="btn btn-neutral btn-icon mr-4"
-                            href="#"
-                          >
-                            <span
-                              className="btn-inner--icon"
-                            >
-                              <i
-                                className="fab fa-2x fa-facebook-f"
-                              />
-                            </span>
-                            <span
-                              className="btn-inner--text"
-                            >
-                              Facebook
-                            </span>
-                          </a>
+                          <t
+                            appId="367351517400934"
+                            cssClass="btn btn-primary mr-2"
+                            fields="name,email,picture"
+                            size="metro"
+                            tag="button"
+                            textButton="Facebook"
+                            typeButton="button"
+                          />
                           <a
                             className="btn btn-neutral btn-icon"
                             href="#"
@@ -4086,7 +3929,7 @@ ShallowWrapper {
                                 />
                                 <label
                                   className="custom-control-label"
-                                  for="customCheckRegister"
+                                  htmlFor="customCheckRegister"
                                 >
                                   <span>
                                     I agree with the
@@ -4133,23 +3976,15 @@ ShallowWrapper {
                           <div
                             className="text-center"
                           >
-                            <a
-                              className="btn btn-neutral btn-icon mr-4"
-                              href="#"
-                            >
-                              <span
-                                className="btn-inner--icon"
-                              >
-                                <i
-                                  className="fab fa-2x fa-facebook-f"
-                                />
-                              </span>
-                              <span
-                                className="btn-inner--text"
-                              >
-                                Facebook
-                              </span>
-                            </a>
+                            <t
+                              appId="367351517400934"
+                              cssClass="btn btn-primary mr-2"
+                              fields="name,email,picture"
+                              size="metro"
+                              tag="button"
+                              textButton="Facebook"
+                              typeButton="button"
+                            />
                             <a
                               className="btn btn-neutral btn-icon"
                               href="#"
@@ -4220,23 +4055,15 @@ ShallowWrapper {
                           "nodeType": "host",
                           "props": Object {
                             "children": Array [
-                              <a
-                                className="btn btn-neutral btn-icon mr-4"
-                                href="#"
-                              >
-                                <span
-                                  className="btn-inner--icon"
-                                >
-                                  <i
-                                    className="fab fa-2x fa-facebook-f"
-                                  />
-                                </span>
-                                <span
-                                  className="btn-inner--text"
-                                >
-                                  Facebook
-                                </span>
-                              </a>,
+                              <t
+                                appId="367351517400934"
+                                cssClass="btn btn-primary mr-2"
+                                fields="name,email,picture"
+                                size="metro"
+                                tag="button"
+                                textButton="Facebook"
+                                typeButton="button"
+                              />,
                               <a
                                 className="btn btn-neutral btn-icon"
                                 href="#"
@@ -4279,65 +4106,20 @@ ShallowWrapper {
                             Object {
                               "instance": null,
                               "key": undefined,
-                              "nodeType": "host",
+                              "nodeType": "class",
                               "props": Object {
-                                "children": Array [
-                                  <span
-                                    className="btn-inner--icon"
-                                  >
-                                    <i
-                                      className="fab fa-2x fa-facebook-f"
-                                    />
-                                  </span>,
-                                  <span
-                                    className="btn-inner--text"
-                                  >
-                                    Facebook
-                                  </span>,
-                                ],
-                                "className": "btn btn-neutral btn-icon mr-4",
-                                "href": "#",
+                                "appId": "367351517400934",
+                                "callback": undefined,
+                                "cssClass": "btn btn-primary mr-2",
+                                "fields": "name,email,picture",
+                                "size": "metro",
+                                "tag": "button",
+                                "textButton": "Facebook",
+                                "typeButton": "button",
                               },
                               "ref": null,
-                              "rendered": Array [
-                                Object {
-                                  "instance": null,
-                                  "key": undefined,
-                                  "nodeType": "host",
-                                  "props": Object {
-                                    "children": <i
-                                      className="fab fa-2x fa-facebook-f"
-                                    />,
-                                    "className": "btn-inner--icon",
-                                  },
-                                  "ref": null,
-                                  "rendered": Object {
-                                    "instance": null,
-                                    "key": undefined,
-                                    "nodeType": "host",
-                                    "props": Object {
-                                      "className": "fab fa-2x fa-facebook-f",
-                                    },
-                                    "ref": null,
-                                    "rendered": null,
-                                    "type": "i",
-                                  },
-                                  "type": "span",
-                                },
-                                Object {
-                                  "instance": null,
-                                  "key": undefined,
-                                  "nodeType": "host",
-                                  "props": Object {
-                                    "children": "Facebook",
-                                    "className": "btn-inner--text",
-                                  },
-                                  "ref": null,
-                                  "rendered": "Facebook",
-                                  "type": "span",
-                                },
-                              ],
-                              "type": "a",
+                              "rendered": null,
+                              "type": [Function],
                             },
                             Object {
                               "instance": null,
@@ -4593,7 +4375,7 @@ ShallowWrapper {
                                   />
                                   <label
                                     className="custom-control-label"
-                                    for="customCheckRegister"
+                                    htmlFor="customCheckRegister"
                                   >
                                     <span>
                                       I agree with the
@@ -4759,7 +4541,7 @@ ShallowWrapper {
                                     />
                                     <label
                                       className="custom-control-label"
-                                      for="customCheckRegister"
+                                      htmlFor="customCheckRegister"
                                     >
                                       <span>
                                         I agree with the
@@ -5220,7 +5002,7 @@ ShallowWrapper {
                                     />
                                     <label
                                       className="custom-control-label"
-                                      for="customCheckRegister"
+                                      htmlFor="customCheckRegister"
                                     >
                                       <span>
                                         I agree with the
@@ -5251,7 +5033,7 @@ ShallowWrapper {
                                     />
                                     <label
                                       className="custom-control-label"
-                                      for="customCheckRegister"
+                                      htmlFor="customCheckRegister"
                                     >
                                       <span>
                                         I agree with the
@@ -5279,7 +5061,7 @@ ShallowWrapper {
                                       />,
                                       <label
                                         className="custom-control-label"
-                                        for="customCheckRegister"
+                                        htmlFor="customCheckRegister"
                                       >
                                         <span>
                                           I agree with the
@@ -5322,7 +5104,7 @@ ShallowWrapper {
                                           </a>
                                         </span>,
                                         "className": "custom-control-label",
-                                        "for": "customCheckRegister",
+                                        "htmlFor": "customCheckRegister",
                                       },
                                       "ref": null,
                                       "rendered": Object {
