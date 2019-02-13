@@ -2,7 +2,9 @@ import { REGISTER_FACEBOOK } from '../actions/types'
 
 const initialState={
     is_authenticated:false,
-    facebook_login:false
+    facebook_login:false,
+    google_login:false,
+    twitter_login:false
 }
 
 const socialLoginReducer=(state=initialState,action)=>{

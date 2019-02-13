@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import RegsiterAction from '../../actions/registerUserActionCreator';
 import {connect} from 'react-redux';
 import Register from '../../components/Register/Register';
-import socialSignUpAction from '../../actions/SocialSignupAction';
+import { faceBookSignUp, googleSignUp } from '../../actions/SocialSignupAction';
 
 import './RegisterView.css'
 import toastr from 'toastr'
@@ -47,17 +47,55 @@ export class RegisterView extends Component {
     }
     
     responseFacebook=(resp)=>{
-        const { socialSignUpAction } = this.props
-        socialSignUpAction(resp.accessToken)
+        const { faceBookSignUp } = this.props
+        faceBookSignUp(resp.accessToken)
         console.log(resp)
 
 
     }
     handleGoogleSuccess=(resp)=>{
         console.log(resp.tokenId)
+        const { googleSignUp } =this.props
+        googleSignUp(resp.tokenId)
+        
     }
     handleGoogleFail=(resp)=>{
         alert('its possible you are logged in with two accounts please signout of one or use ')
+    }
+
+    handleTwitterLoginFail=(resp)=>{
+        console.log(resp)
+    }
+    handleTwitterLoginSuccess=(resp)=>{
+        console.log(resp)
+    }
+    Clicked=()=>{
+        function makeid() {
+            var text = "";
+            var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+          
+            for (var i = 0; i < 5; i++)
+              text += possible.charAt(Math.floor(Math.random() * possible.length));
+          
+            return text;
+          }
+          
+          console.log(makeid());
+        
+        fetch('https://api.twitter.com/oauth/request_token'
+        // ,{
+        //     mode:"no-cors",method:"GET",headers:{
+        //         oauth:{
+        //             oauth_callback: "http%3A%2F%2Flocalhost%3A3000%2Ftwitter-callback",
+        //             consumer_key: "m3zDQN5pkFlS129EA7sAr3XbN",
+        //             consumer_secret: "shthUYGMZ2fOi9asg1dnryqdhvqx4wv0zwZEHAoIgbXooiKuub"
+        //     }
+        //     }
+        // }
+        
+        ).then(data=>{
+            console.log(data)
+        })
     }
     render(){
          
@@ -68,8 +106,12 @@ export class RegisterView extends Component {
         responseFacebook={this.responseFacebook}
         successOrError={this.state.usernameValid? "has-danger":"has-success"}
          HandleChange={this.HandleChange}
-         googleResponseSuccess={this.handleGoogleSuccess} googleResponseFailure={this.handleGoogleFail}/>
-
+         googleResponseSuccess={this.handleGoogleSuccess} googleResponseFailure={this.handleGoogleFail}
+         TwitterLoginFail={this.handleTwitterLoginFail} TwitterLoginSuccess={this.handleTwitterLoginSuccess}
+        
+         
+         />
+        <button onClick={this.Clicked} className="btn btn-primary">login twiiter</button>
         </div>
         )
     }
@@ -82,4 +124,4 @@ export const mapStateToProps = (state) => {
     }
 }
 
-export default connect(mapStateToProps,{RegsiterAction,socialSignUpAction})(RegisterView)
+export default connect(mapStateToProps,{RegsiterAction,faceBookSignUp,googleSignUp})(RegisterView)

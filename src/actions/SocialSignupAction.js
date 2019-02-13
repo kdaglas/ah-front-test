@@ -2,7 +2,7 @@ import {REGISTER_FACEBOOK} from './types';
 import {postDataNoAuth,baseURL} from '../constants';
 
 
-const facebookSignUp=(accessToken)=>(dispatch)=>{
+export const facebookSignUp=(accessToken)=>(dispatch)=>{
     console.log(accessToken)
     postDataNoAuth(`${baseURL}/api/users/facebook-login/`,{"auth_token":accessToken}).then(
         data=>{
@@ -11,4 +11,12 @@ const facebookSignUp=(accessToken)=>(dispatch)=>{
     )
 }
 
-export default facebookSignUp
+export const googleSignUp=(accessToken)=>(dispatch)=>{
+    console.log(accessToken)
+    postDataNoAuth(`${baseURL}/api/users/google-login/`,{"auth_token":accessToken}).then(
+        data=>{
+            console.log(data)
+        }
+    )
+}
+

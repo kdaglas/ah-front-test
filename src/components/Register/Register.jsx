@@ -1,6 +1,9 @@
 import React from 'react';
 import FacebookLogin from 'react-facebook-login'
-import GoogleLogin from 'react-google-login';
+import GoogleLogin from 'react-google-login'
+import TwitterLogin from 'react-twitter-auth'
+
+console.log(TwitterLogin)
 
 const Register=(props)=>{
     return(  
@@ -30,12 +33,12 @@ const Register=(props)=>{
                                 onFailure={props.googleResponseFailure}
                                 cssClass="btn btn-primary"
                                    />
-                                <a href="#" className="btn btn-neutral btn-icon mr-4 mt-2">
-                                        <span className="btn-inner--icon">
-                                <i className="fab fa-2x fa-twitter"></i>
-                                </span>
-                                <span className="btn-inner--text">Twitter</span>
-                              </a>
+                               <TwitterLogin loginUrl="http://localhost:4000/api/v1/auth/twitter"
+                                onFailure={props.TwitterLoginFail} onSuccess={props.TwitterLoginSuccess}
+                                requestTokenUrl="http://localhost:4000/api/v1/auth/twitter/reverse"
+                                
+                                />
+                              
                             </div>
                           </div>
                           <div className="card-body px-lg-5 py-lg-5">
