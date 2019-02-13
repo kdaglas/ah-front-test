@@ -8,6 +8,7 @@ cache:
     - node_modules
 
 script:
+  - npm test -- -u
   - npm test -- --coverage
   - npm run build
   - npm test

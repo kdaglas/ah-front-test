@@ -3,6 +3,7 @@ const path =require("path");
 
 const HTMLplugin=require("html-webpack-plugin");
 const parentDir = path.join(__dirname, "./")
+
 module.exports={
   entry:["./src/index.js"],
   output:{
